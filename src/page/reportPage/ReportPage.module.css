@@ -1,0 +1,10 @@
+.body {
+  width: 100%;
+  margin-top: 2.5%;
+}
+
+.img {
+  width: 65%;
+  display: block;
+  margin: auto;
+}
