@@ -1,0 +1,43 @@
+.popup-main {
+  height: 300px;
+  width: 400px;
+  background-color: rgb(199, 219, 219);
+  position: fixed;
+  bottom: 10px;
+  right: 10px;
+  border-radius: 10%;
+  box-shadow: -1px -1px 10px 1px rgb(181, 199, 199) inset;
+}
+
+.popup-x {
+  position: absolute;
+  right: 18px;
+  top: 0px;
+  color: rgb(79, 160, 133);
+  font-size: 25px;
+  cursor: pointer;
+}
+
+.popup-h3 {
+  font-family: Quicksand;
+  font-weight: 700;
+  text-align: center;
+  font-size: 20px;
+  margin-top: 25px;
+}
+
+.popup-p {
+  font-family: Quicksand;
+  font-weight: 700;
+  font-size: 15px;
+  margin-left: 40px;
+}
+
+.popup-p-under {
+  font-family: Quicksand;
+  font-weight: 700;
+  font-size: 15px;
+  position: fixed;
+  bottom: 15px;
+  right: 119px;
+}

@@ -3,6 +3,7 @@ import { MainLayout } from "../../layout/mainLayout";
 import styles from "./HomePage.module.css";
 import { Row, Col } from "antd";
 import a from "../../assets/images/a.jpg";
+import { PopUp } from "../../components";
 
 export const HomePage: React.FC = () => {
   return (
@@ -29,6 +30,7 @@ export const HomePage: React.FC = () => {
           </Col>
         </Row>
       </div>
+      <PopUp />
     </MainLayout>
   );
 };
