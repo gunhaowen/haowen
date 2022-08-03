@@ -1,5 +1,5 @@
 import React from "react";
-import { Row, Col, Button } from "antd";
+import { Row, Col, Divider } from "antd";
 import styles from "./Header.module.css";
 import "./Header.css";
 import ig from "../../assets/icons/instagram.svg";
@@ -12,6 +12,13 @@ export const Header: React.FC = () => {
 
   return (
     <div className={styles["top-header"]}>
+      <Divider orientation="left" className={styles["divider"]}>
+        Haowen 網站
+        <select style={{ marginLeft: "30px" }} className={styles["change"]}>
+          <option>中文</option>
+          <option>英文</option>
+        </select>
+      </Divider>
       <Row>
         <Col span={12} offset={1}>
           <button

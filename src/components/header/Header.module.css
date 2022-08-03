@@ -29,3 +29,18 @@
   margin-right: 25px;
   cursor: pointer;
 }
+
+.divider {
+  font-size: 25px !important;
+  font-family: Quicksand;
+  font-weight: 700 !important;
+}
+
+.change {
+  border-style: none;
+  background-color: rgb(241, 233, 223);
+  font-size: 20px !important;
+  font-family: Quicksand;
+  font-weight: 700 !important;
+  cursor: pointer;
+}
