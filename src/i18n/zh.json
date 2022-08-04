@@ -1,0 +1,33 @@
+{
+  "header": {
+    "title": "Haowen 網站",
+    "language": "切換語言",
+    "about": "關於我",
+    "portfolio": "個人作品",
+    "introduce": "我的自介",
+    "todolist": "備忘錄",
+    "travel": "旅遊網站",
+    "report": "實習報告",
+    "youtube": "youtube作品"
+  },
+  "footer": {
+    "welcome": "歡迎來到我的網站",
+    "information": "聯絡資訊",
+    "telephone": "電話: 0936210060",
+    "email": "email: asd25878098@gmail.com"
+  },
+  "home_page": {
+    "main-introduce-1": "hi~ 我是 Haowen",
+    "main-introduce-2": "一位網頁前端設計師",
+    "main-introduce-3": "熱衷於網頁開發",
+    "main-introduce-4": "平常喜歡用影片記錄旅遊"
+  },
+  "popup": {
+    "remind": "溫馨提示 (觀看個人作品 旅遊網站)",
+    "pop-main-1": "應為調用的api是http的所以會被當成不安全網站",
+    "pop-main-2": "需要先點選左上角那個鎖頭 再點選網站設定",
+    "pop-main-3": "然後到權限找到(不安全的內容) 更改成允許",
+    "pop-main-4": "然後回到頁面重新載入就可以看了",
+    "accountsecret": "可使用 帳號:aa 密碼:123a"
+  }
+}

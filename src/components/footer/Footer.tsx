@@ -1,8 +1,11 @@
 import React from "react";
 import { Layout, Typography } from "antd";
 import styles from "./Footer.module.css";
+import { useTranslation } from "react-i18next";
 
 export const Footer: React.FC = () => {
+  const { t } = useTranslation();
+
   return (
     <Layout.Footer style={{ backgroundColor: "rgb(241, 233, 223)" }}>
       <Typography.Title
@@ -10,10 +13,11 @@ export const Footer: React.FC = () => {
         style={{ textAlign: "center" }}
         className={styles.title}
       >
-        歡迎來到我的網站
+        {t("footer.welcome")}
       </Typography.Title>
       <div className={styles.text}>
-        聯絡資訊 <br /> 電話: 0936210060 <br /> email: asd25878098@gmail.com
+        {t("footer.information")} <br /> {t("footer.telephone")} <br />{" "}
+        {t("footer.email")}
       </div>
     </Layout.Footer>
   );

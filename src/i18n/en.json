@@ -1,0 +1,33 @@
+{
+  "header": {
+    "title": "Haowen website",
+    "language": "change language",
+    "about": "About me",
+    "portfolio": "Personal portfolio",
+    "introduce": "My introduce",
+    "todolist": "memorandum",
+    "travel": "Travel websites",
+    "report": "internship report",
+    "youtube": "youtube works"
+  },
+  "footer": {
+    "welcome": "welcome to my website",
+    "information": "Contact Information",
+    "telephone": "tel: 0936210060",
+    "email": "email: asd25878098@gmail.com"
+  },
+  "home_page": {
+    "main-introduce-1": "hi~ I'm Haowen",
+    "main-introduce-2": "A web front-end designer",
+    "main-introduce-3": "Passionate about web development",
+    "main-introduce-4": "I usually like to use videos to record travel"
+  },
+  "popup": {
+    "remind": "Tips",
+    "pop-main-1": "Watch the travel website",
+    "pop-main-2": "Websites should be treated as unsafe",
+    "pop-main-3": "You need to change (unsafe content) to Allow",
+    "pop-main-4": "Then reload it",
+    "accountsecret": "Available Account:aa password:123a"
+  }
+}

@@ -6,18 +6,39 @@ import ig from "../../assets/icons/instagram.svg";
 import gitHub from "../../assets/icons/github-brands 1.svg";
 import youtube from "../../assets/icons/youtube.png";
 import { useNavigate } from "react-router-dom";
+import i18n from "../../i18n/config";
+import { useTranslation } from "react-i18next";
 
 export const Header: React.FC = () => {
   const navigate = useNavigate();
+  const { t } = useTranslation();
+  let language = document.getElementById("language")?.dataset.id;
 
   return (
     <div className={styles["top-header"]}>
       <Divider orientation="left" className={styles["divider"]}>
-        Haowen 網站
-        <select style={{ marginLeft: "30px" }} className={styles["change"]}>
-          <option>中文</option>
-          <option>英文</option>
-        </select>
+        {t("header.title")}
+        <button
+          style={{ marginLeft: "30px" }}
+          className={styles["change"]}
+          id={"language"}
+          data-id={"zh"}
+          onClick={() => {
+            if (language == "zh") {
+              i18n.changeLanguage("en");
+              document
+                .getElementById("language")
+                ?.setAttribute("data-id", "en");
+            } else {
+              i18n.changeLanguage("zh");
+              document
+                .getElementById("language")
+                ?.setAttribute("data-id", "zh");
+            }
+          }}
+        >
+          {t("header.language")}
+        </button>
       </Divider>
       <Row>
         <Col span={12} offset={1}>
@@ -27,25 +48,25 @@ export const Header: React.FC = () => {
               navigate("/");
             }}
           >
-            關於我
+            {t("header.about")}
           </button>
           <ul className="drop-down-menu">
             <li>
-              <a href="#">個人作品</a>
+              <a href="#">{t("header.portfolio")}</a>
               <ul>
                 <li>
                   <a href="https://guanhaowen.netlify.app" target="_blank">
-                    ✑ 我的自介
+                    ✑ {t("header.introduce")}
                   </a>
                 </li>
                 <li>
                   <a href="https://ghw-memorandum.netlify.app" target="_blank">
-                    ✑ 備忘錄
+                    ✑ {t("header.todolist")}
                   </a>
                 </li>
                 <li>
                   <a href="https://haowen-travel.netlify.app" target="_blank">
-                    ✑ 旅遊網站
+                    ✑ {t("header.travel")}
                   </a>
                 </li>
               </ul>
@@ -57,7 +78,7 @@ export const Header: React.FC = () => {
               navigate("/report");
             }}
           >
-            實習報告
+            {t("header.report")}
           </button>
           <button
             className={styles.button}
@@ -67,7 +88,7 @@ export const Header: React.FC = () => {
               );
             }}
           >
-            youtube作品
+            {t("header.youtube")}
           </button>
         </Col>
         <Col span={5} offset={6}>
