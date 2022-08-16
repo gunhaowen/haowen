@@ -29,5 +29,16 @@
     "pop-main-3": "You need to change (unsafe content) to Allow",
     "pop-main-4": "Then reload it",
     "accountsecret": "Available Account:aa password:123a"
+  },
+  "weather": {
+    "main": "weather(The next 8 hours)",
+    "search": "Check",
+    "max": "Max ",
+    "min": "Min ",
+    "feel": "Somatosensory",
+    "rain": "Rainfall rate",
+    "error": "Input error",
+    "suggestion": "Recommended input:",
+    "return": "Go back"
   }
 }

@@ -1,0 +1,81 @@
+.main {
+  font-family: Quicksand;
+  font-weight: 700;
+  font-size: 45px;
+  margin-top: 65px;
+  margin-bottom: 7%;
+  text-align: center;
+}
+
+.main-input {
+  font-family: Quicksand;
+  font-weight: 700;
+  font-size: 20px;
+  text-align: center;
+  margin-top: 2%;
+  margin-left: 30%;
+  background-color: rgba(144, 214, 191, 0);
+  border-width: 1px;
+  border-radius: 6%;
+}
+
+.main-button {
+  font-family: Quicksand;
+  font-weight: 700;
+  font-size: 20px;
+  text-align: center;
+  margin-top: 2%;
+  margin-left: 20px;
+  background-color: rgba(0, 0, 0, 0);
+  border: none;
+  cursor: pointer;
+}
+
+.temperature {
+  font-family: Quicksand;
+  font-weight: 700;
+  text-align: center;
+  font-size: 50px;
+  margin-top: 8%;
+  margin-bottom: 0 !important;
+}
+
+.main-h2 {
+  font-family: Quicksand;
+  font-weight: 700;
+  font-size: 25px;
+  text-align: center;
+  margin-top: 3%;
+}
+
+.main-img {
+  border-radius: 50%;
+  position: absolute;
+  left: 15%;
+  top: 9%;
+}
+
+.error {
+  font-family: Quicksand;
+  font-weight: 700;
+  font-size: 40px;
+  margin-left: 8%;
+}
+
+.error-content {
+  font-family: Quicksand;
+  font-weight: 700;
+  font-size: 35px;
+  margin: 5px;
+  margin-left: 8% !important;
+}
+
+.error-button {
+  font-family: Quicksand;
+  font-weight: 700;
+  font-size: 40px;
+  color: rgb(16, 172, 86);
+  cursor: pointer;
+  text-align: center;
+  margin-top: 5%;
+}
